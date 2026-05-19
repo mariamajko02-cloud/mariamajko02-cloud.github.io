@@ -1,0 +1,86 @@
+<!doctype html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Таблиці, зображення та fixed-фон</title>
+   <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <a id="top"></a>
+
+  <div class="wrap">
+    <h1>Таблиці та зображення в HTML + fixed-фон</h1>
+
+    <div class="note">
+      Прокрути сторінку вниз: фон має залишатися нерухомим (це працює через
+      <b>background-attachment: fixed</b>).
+    </div>
+
+    <table>
+      <caption>Приклад таблиці 3×3 з зображеннями</caption>
+
+      <thead>
+        <tr>
+          <th>Назва</th>
+          <th>Опис</th>
+          <th>Фото</th>
+        </tr>
+      </thead> 
+      <tbody>
+        <tr>
+          <td>Гори</td>
+          <td>Високі вершини та свіже повітря.</td>
+          <td>
+            <video src="https://www.pexels.com/ru-ru/download/video/31623346/" width="175" autoplay controls> 
+            </video> 
+          </td>
+        
+
+        <tr>
+          <td>Море</td>
+          <td>Хвилі, пісок і відпочинок.</td>
+          <td><img src="https://st5.depositphotos.com/35914836/64942/i/450/depositphotos_649421430-stock-photo-beautiful-sunrise-sea.jpg alt="Фото моря">
+            </td>
+          <td>
+        <tr>
+            <td>Ліси</td>
+            <td>Свіже повітря, тваринки, полювання</td>
+          <td>
+        
+            <img src="https://www.pexels.com/uk-ua/photo/2049422/ alt="Фото лісу">
+          </td>
+        
+        <tr>
+          <td>Сафарі</td>
+          <td>Дуже багато розваг</td>
+        <td>
+        
+          <img src="https://www.pexels.com/uk-ua/photo/2049422/ alt="Фото сафарі">
+        </td>
+        </tr> 
+        
+        <h2>Текст для прокрутки</h2>
+            <p>
+              Додай кілька абзаців, щоб сторінка прокручувалась. Під час прокрутки фон
+              залишатиметься на місці, а текст рухатиметься поверх нього.
+            </p>
+            <p>
+              Таблиці створюються тегом <b>&lt;table&gt;</b>, рядки — <b>&lt;tr&gt;</b>,
+              клітинки — <b>&lt;td&gt;</b>, а заголовки — <b>&lt;th&gt;</b>.
+              Зображення вставляються тегом <b>&lt;img&gt;</b>.
+            </p>
+            <p>
+              Для ефекту “нерухомого фону” використовується CSS властивість
+              <b>background-attachment: fixed;</b>.
+            </p>
+
+            <p class="toplink"><a href="#top">Повернутись нагору ↑</a></p>
+          </div>
+  
+
+        </body>
+        </html>
+

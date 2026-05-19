@@ -1,0 +1,80 @@
+/* Fixed фон */
+body{
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-image: url(https://st5.depositphotos.com/35914836/64942/i/450/depositphotos_649421430-stock-photo-beautiful-sunrise-sea.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+
+
+}
+
+
+/* Напівпрозорий блок, щоб текст читався на фоні */
+.wrap{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px;
+  background: rgba(255, 255, 255,0.77);
+  min-height: 100vh;
+}
+
+h1{
+  margin-top: 0;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0 24px;
+  background: #d2bcfb;
+}
+caption{
+  caption-side: top;
+  text-align: left;
+  font-weight: 700;
+  padding: 10px 0;
+}
+
+th, td{
+  border: 1px solid #2f1e57;
+  padding: 10px;
+  vertical-align: top;
+}
+
+th{
+  background: #c177fd;
+  text-align: left;
+}
+
+
+
+/* Підсвічування при наведенні */
+tbody tr:hover{
+  background: #fff3c4;
+}
+
+img{
+  display: block;
+  max-width: 160px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.note{
+  background: #f5b9f9;
+  border-left: 6px solid #cb29d6;
+  padding: 12px 14px;
+  margin: 18px 0;
+}
+
+.toplink{
+  display: inline-block;
+  margin-top: 12px;
+} 
+
